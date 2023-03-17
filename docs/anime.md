@@ -638,9 +638,9 @@ Sources
 
 排列顺序
 
-| 最新 | 最多点阅 | 最多图片 | 最爱 |
-| ---- | -------- | -------- | ---- |
-| mr   | mv       | mp       | tf   |
+| 最新 | 最多点阅的 | 最多图片 | 最高评分 | 最多评论 | 最多爱心 |
+| ---- | ---------- | -------- | -------- | -------- | -------- |
+| mr   | mv         | mp       | tr       | md       | tf       |
 
 关键字（供参考）
 
@@ -651,7 +651,7 @@ Sources
 
 ### 搜索
 
-<Route author="nczitzk" example="/18comic/search/photos/all/NTR" path="/18comic/search/:option?/:category?:keyword?/:time?/:order?" :paramsDesc="['选项，可选 `video` 和 `photos`，默认为 `photos`', '分类，同上表，默认为 `all` 即全部', '关键字，同上表，默认为空', '时间范围，同上表，默认为 `a` 即全部', '排列顺序，同上表，默认为 `mr` 即最新']">
+<Route author="nczitzk" example="/18comic/search/photos/all/NTR" path="/18comic/search/:option?/:category?/:keyword?/:time?/:order?" :paramsDesc="['选项，可选 `video` 和 `photos`，默认为 `photos`', '分类，同上表，默认为 `all` 即全部', '关键字，同上表，默认为空', '时间范围，同上表，默认为 `a` 即全部', '排列顺序，同上表，默认为 `mr` 即最新']">
 
 ::: tip 提示
 
@@ -749,6 +749,12 @@ Sources
 更多标签请前往 [搜索种子](https://bangumi.moe/search/index)
 
 </Route>
+
+## 偶像荣耀
+
+### 新闻推送
+
+<Route author="Mingxia1" example="/idolypride/news" path="/idolypride/news" radar="1" rssbud="1"/>
 
 ## 三界异次元
 
